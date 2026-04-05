@@ -1,0 +1,10 @@
+{
+  "temp_001": {"password": "sensor123", "role": "sensor"},
+  "vib_002": {"password": "sensor123", "role": "sensor"},
+  "energy_003": {"password": "sensor123", "role": "sensor"},
+  "temp_004": {"password": "sensor123", "role": "sensor"},
+  "vib_005": {"password": "sensor123", "role": "sensor"},
+  "operator1": {"password": "op123", "role": "operator"},
+  "operator2": {"password": "op456", "role": "operator"},
+  "webuser": {"password": "web789", "role": "operator"}
+}

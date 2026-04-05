@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="US-ASCII">
+    <title>Login IoT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f6fa;
+            color: #1f2933;
+            margin: 0;
+            padding: 32px;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #d9e2ec;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+            margin: 48px auto;
+            max-width: 420px;
+            padding: 28px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+            margin-top: 14px;
+        }
+        input {
+            border: 1px solid #bcccdc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            padding: 10px 12px;
+            width: 100%;
+        }
+        button {
+            background: #1f6feb;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            margin-top: 18px;
+            padding: 10px 14px;
+            width: 100%;
+        }
+        p {
+            color: #52606d;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Ingreso Operador</h1>
+        <p>Autenticacion web del sistema de monitoreo IoT.</p>
+        <form method="get" action="/login">
+            <label for="user">Usuario</label>
+            <input id="user" name="user" type="text" placeholder="operator1" required>
+
+            <label for="pass">Contrasena</label>
+            <input id="pass" name="pass" type="password" placeholder="op123" required>
+
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+</body>
+</html>
